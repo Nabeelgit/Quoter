@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #e7cd70;
+    overflow-x: hidden;
+}
+.fill-available {
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+header {
+    text-align: center;
+    background-color: #ccb04e;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.header-name {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    font-size: 2.5rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.search-form {
+    display: flex;
+}
+.search-inp {
+    width: 20rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid gray;
+    padding: 0.7rem;
+    padding-left: 0.5rem;
+    outline: none;
+}
+.search-inp::placeholder {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+.search-btn {
+    border-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 1px solid gray;
+    background-color: #ccb04e;
+    padding: 1rem;
+    cursor: pointer;
+}
+.search-btn svg {
+    fill: white;
+    font-size: 1rem;
+}
+.quotes {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 19rem);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.5rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.quote_box {
+    border: 1px solid black;
+    border-radius: 1rem;
+    max-width: 18rem;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+    cursor: pointer;
+}
+.quote_box:hover { 
+    transform: scale(1.1); 
+    border-color: white;
+    box-shadow: 0px 0px 8px 0px white;
+}
+.quote_box .text_box {
+    padding: 1rem;
+}
+.quote_box .author_box {
+    cursor: pointer;
+    padding: 0.8rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    background-color: #ccb04e;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: right;
+    font-style: italic;
+}
