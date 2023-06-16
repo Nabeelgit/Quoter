@@ -35,7 +35,7 @@
             $match = $table->find([], ['sort' => ['_id' => -1]]);
             foreach($match as $quote){
                 ?>
-            <a class="quote_box" href="./quote/?id=<?php echo $quote['id']?>">
+            <a class="quote_box" href="./quote/?id=<?php echo urlencode($quote['id'])?>">
                 <div class="text_box">
                     <span class="quote_text">"<?php echo htmlspecialchars($quote['text'])?>"</span>
                 </div>
