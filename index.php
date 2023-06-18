@@ -14,7 +14,7 @@
     <header class="fill-available">
         <div class="header-left fill-available"></div>  
         <div class="header-middle fill-available">
-            <a class="header-name">Quoter</a>
+            <a class="header-name" href="./">Quoter</a>
         </div>
         <div class="header-right fill-available">
             <button class="header-btn" id="submit-btn">Submit a quote</button>
