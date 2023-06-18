@@ -12,11 +12,9 @@
 </head>
 <body>
     <header class="fill-available">
-        <div class="header-left fill-available">
-            <button class="header-btn">Report</button>
-        </div>  
+        <div class="header-left fill-available"></div>  
         <div class="header-middle fill-available">
-            <h1 class="header-name">Quoter</h1>
+            <a class="header-name">Quoter</a>
         </div>
         <div class="header-right fill-available">
             <button class="header-btn" id="submit-btn">Submit a quote</button>
